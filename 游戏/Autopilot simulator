@@ -10,7 +10,7 @@ local lastCurrency = 0  -- 初始化为初始金额
 -- 加载 UI 模块
 local UILibrary
 local success, result = pcall(function()
-    local url = "https://raw.githubusercontent.com/TongScriptX/Pluto/refs/heads/main/Pluto/UILibrary/PlutoUILibrary.lua"
+    local url = "https://raw.githubusercontent.com/ljxnb1228/Moon/main/UI库/UI示例.lua"
     local source = game:HttpGet(url)
     return loadstring(source)()
 end)
