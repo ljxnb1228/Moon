@@ -5,7 +5,7 @@ local TweenService = game:GetService("TweenService")
 -- 加载 UI 库
 local UILibrary
 local success, result = pcall(function()
-    local url = "https://raw.githubusercontent.com/ljxnb1228/Moon/refs/heads/main/UI.lua"
+    local url = ""
     local response = game:HttpGet(url)
     if response and #response > 1000 then
         return response
